@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mengejar Cakrawala | MOMENTO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Additional Styles for Journal Detail */
+        .journal-detail {
+            padding: 6rem 10% 4rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .journal-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .journal-header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .journal-date {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+        
+        .journal-image {
+            margin-bottom: 2.5rem;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .journal-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .journal-content {
+            line-height: 1.8;
+        }
+        
+        .journal-content p {
+            margin-bottom: 1.5rem;
+            color: var(--text);
+        }
+        
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 2rem;
+            padding: 0.8rem 1.5rem;
+            background: var(--accent);
+            color: white;
+            border-radius: 50px;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        
+        .back-button:hover {
+            background: #d4a373;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(232, 193, 160, 0.4);
+        }
+        
+        @media (max-width: 768px) {
+            .journal-detail {
+                padding: 5rem 5% 3rem;
+            }
+            
+            .journal-header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigasi -->
+    <nav>
+        <div class="nav-brand">
+            <span>M</span>OMENTO
+        </div>
+        <div class="nav-menu">
+            <a href="index.html#home">Beranda</a>
+            <a href="index.html#gallery">Galeri</a>
+            <a href="index.html#journal">Jurnal</a>
+            <a href="index.html#about">Tentang</a>
+        </div>
+    </nav>
+
+    <!-- Journal Detail -->
+    <section class="journal-detail">
+        <div class="journal-header">
+            <h1>Mengejar Cakrawala</h1>
+            <p class="journal-date">1 Mei 2025</p>
+        </div>
+        
+        <div class="journal-image">
+            <img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d" alt="Langit Berwarna">
+        </div>
+        
+        <div class="journal-content">
+            <p>Ada sesuatu yang magis tentang cakrawala. Garis imajiner tempat langit dan bumi bertemu ini selalu menjadi daya tarikku. Pagi itu, aku bangun sebelum fajar, bertekad menangkap momen ketika matahari pertama kali muncul di ufuk timur.</p>
+            
+            <p>Lokasi yang kupilih adalah bukit kecil di pinggir kota. Dari sini, pemandangan terbuka lebar tanpa halangan. Aku menyiapkan kamera dan tripod, menunggu dengan sabar sambil menikmati udara pagi yang segar.</p>
+            
+            <p>Ketika matahari mulai muncul, langit berubah menjadi kanvas warna-warni. Oranye, merah muda, dan ungu bercampur dengan indahnya. Aku mengambil beberapa bidikan, mencoba menangkap gradasi warna yang sempurna.</p>
+            
+            <p>Fotografi lanskap seperti ini mengajarkanku tentang kesabaran dan antisipasi. Kita tidak bisa terburu-buru, harus menunggu saat yang tepat. Dan ketika momen itu datang, kita harus siap dengan komposisi dan pengaturan yang tepat.</p>
+            
+            <p>Di balik setiap foto cakrawala yang indah, ada cerita tentang perjuangan, kesabaran, dan ketekunan. Inilah yang membuat fotografi begitu berarti bagiku - bukan hanya hasil akhirnya, tapi juga proses untuk mencapainya.</p>
+        </div>
+        
+        <a href="index.html#journal" class="back-button">
+            <i class="fas fa-arrow-left"></i> Kembali ke Jurnal
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <span>M</span>OMENTO
+                <p>Visual storytelling yang didefinisikan ulang</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Jelajahi</h4>
+                    <a href="index.html#gallery">Galeri</a>
+                    <a href="index.html#journal">Jurnal</a>
+                    <a href="index.html#about">Tentang</a>
+                </div>
+                <div class="link-group">
+                    <h4>Terhubung</h4>
+                    <a href="https://instagram.com" target="_blank">Instagram</a>
+                    <a href="https://pinterest.com" target="_blank">Pinterest</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 MOMENTO Visuals. Seluruh hak cipta dilindungi.</p>
+            <div class="footer-social">
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://pinterest.com" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
